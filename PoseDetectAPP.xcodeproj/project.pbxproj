@@ -16,6 +16,8 @@
 		525769762A32C4AF00AC6206 /* PoseDetectAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525769752A32C4AF00AC6206 /* PoseDetectAPPTests.swift */; };
 		525769802A32C4AF00AC6206 /* PoseDetectAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257697F2A32C4AF00AC6206 /* PoseDetectAPPUITests.swift */; };
 		525769822A32C4AF00AC6206 /* PoseDetectAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525769812A32C4AF00AC6206 /* PoseDetectAPPUITestsLaunchTests.swift */; };
+		5257698F2A32D88600AC6206 /* PoseDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257698E2A32D88600AC6206 /* PoseDetection.swift */; };
+		525769932A33262600AC6206 /* DrawPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525769922A33262600AC6206 /* DrawPoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5257697B2A32C4AF00AC6206 /* PoseDetectAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoseDetectAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5257697F2A32C4AF00AC6206 /* PoseDetectAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetectAPPUITests.swift; sourceTree = "<group>"; };
 		525769812A32C4AF00AC6206 /* PoseDetectAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetectAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5257698E2A32D88600AC6206 /* PoseDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetection.swift; sourceTree = "<group>"; };
+		525769922A33262600AC6206 /* DrawPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				5257695E2A32C4AD00AC6206 /* AppDelegate.swift */,
 				525769602A32C4AD00AC6206 /* SceneDelegate.swift */,
 				525769622A32C4AD00AC6206 /* ViewController.swift */,
+				525769922A33262600AC6206 /* DrawPoints.swift */,
 				525769642A32C4AD00AC6206 /* Main.storyboard */,
+				5257698E2A32D88600AC6206 /* PoseDetection.swift */,
 				525769672A32C4AF00AC6206 /* Assets.xcassets */,
 				525769692A32C4AF00AC6206 /* LaunchScreen.storyboard */,
 				5257696C2A32C4AF00AC6206 /* Info.plist */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5257698F2A32D88600AC6206 /* PoseDetection.swift in Sources */,
 				525769632A32C4AD00AC6206 /* ViewController.swift in Sources */,
 				5257695F2A32C4AD00AC6206 /* AppDelegate.swift in Sources */,
+				525769932A33262600AC6206 /* DrawPoints.swift in Sources */,
 				525769612A32C4AD00AC6206 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.takiser.PoseDetectAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takiser.PoseDetectAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.takiser.PoseDetectAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takiser.PoseDetectAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
